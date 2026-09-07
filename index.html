@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>22 Sunrise Ave | Ormond-by-the-Sea, FL | Erica Gibb, Realtor</title>
+<meta name="description" content="8 houses from the no-drive beach in Ormond-by-the-Sea. Built 1966, 1,520 sq ft solid block home with a 2-car garage, tile roof, terrazzo flooring, and no HOA. 22 Sunrise Ave, Ormond Beach, FL 32176. Listed by Erica Gibb, Realtor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,500&family=Raleway:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0A0A0A;
+  --black-soft:#151515;
+  --cream:#F7F5F1;
+  --white:#FFFFFF;
+  --ink:#201F1D;
+  --stone:#8C8272;
+  --stone-light:#B9AF9C;
+  --line:rgba(0,0,0,0.1);
+  --line-dark:rgba(255,255,255,0.14);
+  --max:1240px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Montserrat',sans-serif;
+  font-weight:400;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 40px;}
+h1,h2,h3{font-family:'Cormorant',serif;font-weight:600;color:var(--black);letter-spacing:.3px;}
+.eyebrow{
+  font-family:'Raleway',sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:3px;text-transform:uppercase;color:var(--stone);
+}
+.divider{width:56px;height:1px;background:var(--black);margin:22px auto;opacity:.35;}
+.divider.left{margin-left:0;}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:'Raleway',sans-serif;font-weight:600;font-size:12.5px;
+  letter-spacing:2px;text-transform:uppercase;
+  padding:16px 32px;transition:all .25s ease;cursor:pointer;
+  border:1px solid transparent;
+}
+.btn-solid{background:var(--white);color:var(--black);}
+.btn-solid:hover{background:var(--cream);}
+.btn-outline{border-color:rgba(255,255,255,.55);color:var(--white);}
+.btn-outline:hover{border-color:var(--white);background:rgba(255,255,255,.08);}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:100;background:var(--black);}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:22px 40px;max-width:var(--max);margin:0 auto;
+}
+.logo{font-family:'Raleway',sans-serif;font-size:14px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--white);line-height:1.3;cursor:pointer;}
+.logo span{display:block;font-family:'Raleway',sans-serif;font-size:10px;font-weight:500;letter-spacing:2px;color:var(--stone-light);text-transform:uppercase;margin-top:3px;}
+.nav-right{display:flex;align-items:center;gap:30px;}
+.nav-phone{font-family:'Raleway',sans-serif;font-weight:600;font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.75);}
+.nav-phone:hover{color:var(--white);}
+.nav-contact{
+  font-family:'Raleway',sans-serif;font-weight:600;font-size:11.5px;
+  letter-spacing:2px;text-transform:uppercase;color:var(--white);
+  padding-bottom:2px;border-bottom:1px solid rgba(255,255,255,.4);cursor:pointer;
+}
+.nav-contact:hover{border-color:var(--white);}
+.menu-toggle{
+  display:flex;align-items:center;gap:9px;
+  background:none;border:none;
+  font-family:'Raleway',sans-serif;font-weight:600;font-size:11.5px;
+  letter-spacing:2px;text-transform:uppercase;color:var(--white);cursor:pointer;
+}
+@media (max-width:640px){.nav-phone{display:none;}}
+
+nav.dropdown{max-height:0;overflow:hidden;background:var(--black-soft);transition:max-height .35s ease;border-top:1px solid var(--line-dark);}
+nav.dropdown.open{max-height:70vh;overflow-y:auto;}
+nav.dropdown .drop-inner{
+  max-width:560px;margin:0 auto;padding:30px 40px 40px;
+  display:flex;flex-direction:column;
+}
+nav.dropdown a{
+  font-family:'Cormorant',serif;font-size:24px;font-weight:500;
+  color:rgba(255,255,255,.8);padding:13px 0;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  text-align:center;transition:color .2s;cursor:pointer;
+}
+nav.dropdown a:hover,nav.dropdown a.active{color:var(--white);}
+
+/* FLOATING CONTACT */
+.floating-contact{
+  position:fixed;right:26px;bottom:26px;z-index:90;
+  display:flex;flex-direction:column;gap:12px;
+}
+.fc-btn{
+  width:48px;height:48px;border-radius:50%;
+  background:rgba(10,10,10,.88);color:var(--white);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 20px rgba(0,0,0,.25);transition:background .2s;cursor:pointer;
+}
+.fc-btn:hover{background:#000;}
+.fc-btn svg{width:19px;height:19px;}
+
+/* HERO */
+.hero{
+  position:relative;min-height:86vh;display:flex;align-items:flex-end;
+  overflow:hidden;color:var(--white);
+  background-image:
+    linear-gradient(100deg, rgba(0,0,0,.82) 0%, rgba(0,0,0,.45) 30%, rgba(0,0,0,0) 62%),
+    var(--hero-img, linear-gradient(200deg,#2b2f28 0%,#4a4335 40%,#8a6a41 68%,#c99a55 88%));
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.hero-inner{max-width:var(--max);margin:0 auto;padding:0 40px 110px;width:100%;}
+.hero-meta{font-family:'Raleway',sans-serif;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:14px;}
+.hero h1{color:var(--white);font-size:clamp(32px,5.5vw,48px);margin:0 0 6px;letter-spacing:.5px;text-transform:uppercase;font-family:'Raleway',sans-serif;font-weight:600;line-height:1.2;}
+.hero-loc{font-family:'Raleway',sans-serif;font-size:13px;font-weight:500;color:rgba(255,255,255,.7);margin-bottom:20px;text-transform:uppercase;letter-spacing:1.2px;}
+.specs-row{display:flex;flex-wrap:wrap;gap:24px;align-items:center;
+  color:rgba(255,255,255,.75);margin:26px 0 34px;padding-top:22px;border-top:1px solid rgba(255,255,255,.22);
+  max-width:680px;
+}
+.specs-row b{color:var(--white);font-family:'Cormorant',serif;font-size:19px;font-weight:600;letter-spacing:.3px;margin-right:6px;}
+.specs-row .tag{color:var(--white);font-weight:600;}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap;}
+
+/* PAGE HERO */
+.page-hero{
+  position:relative;min-height:52vh;display:flex;align-items:flex-end;color:var(--white);
+  background-image:
+    linear-gradient(to top, rgba(5,5,5,.92) 0%, rgba(5,5,5,.55) 40%, rgba(5,5,5,.2) 75%),
+    var(--hero-img, linear-gradient(200deg,#2b2f28 0%,#4a4335 40%,#8a6a41 68%,#c99a55 88%));
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.page-hero-inner{max-width:var(--max);margin:0 auto;padding:0 40px 56px;width:100%;}
+.page-hero .eyebrow{color:rgba(255,255,255,.65);}
+.page-hero h1{color:var(--white);font-size:clamp(28px,4.5vw,42px);margin:12px 0 12px;letter-spacing:.5px;text-transform:uppercase;}
+.page-hero p{color:rgba(255,255,255,.7);max-width:520px;font-size:15px;}
+
+/* SECTIONS */
+section{padding:110px 0 90px;}
+section.tight{padding-top:80px;}
+section.first{padding-top:90px;}
+.section-head{text-align:center;max-width:640px;margin:0 auto 56px;}
+.section-head h2{font-size:clamp(22px,3.5vw,32px);margin:12px 0 14px;letter-spacing:.3px;}
+.section-head p{color:#5C5C58;font-size:15.5px;}
+
+/* CARD GRID */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.card-link{background:var(--cream);padding:42px 34px;transition:background .2s;cursor:pointer;}
+.card-link:hover{background:var(--white);}
+.card-link .ic{width:28px;height:28px;color:var(--black);margin-bottom:18px;opacity:.7;}
+.card-link h3{font-size:19px;margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;}
+.card-link p{font-size:14px;color:#5C5C58;margin-bottom:14px;}
+.card-link .go{font-family:'Raleway',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--black);}
+@media (max-width:860px){.card-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.card-grid{grid-template-columns:1fr;}}
+
+/* TWO COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+.two-col .photo{width:100%;height:460px;object-fit:cover;border:1px solid var(--line);}
+.two-col .copy p{margin-bottom:18px;color:#40403C;font-size:15.5px;}
+@media (max-width:860px){.two-col{grid-template-columns:1fr;gap:36px;}}
+
+/* FEAT GRID */
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+.feat{background:var(--cream);padding:38px 34px;}
+.feat .ic{width:28px;height:28px;color:var(--black);margin-bottom:16px;opacity:.7;}
+.feat h3{font-size:17px;margin-bottom:8px;letter-spacing:.5px;text-transform:uppercase;}
+.feat p{font-size:14px;color:#5C5C58;}
+@media (max-width:860px){.feat-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.feat-grid{grid-template-columns:1fr;}}
+
+/* DOT LIST */
+.dot-list{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:12px;}
+.dot-list li{display:flex;gap:12px;align-items:baseline;font-size:14.5px;color:#40403C;}
+.dot-list li:before{content:"";width:5px;height:5px;background:var(--stone);border-radius:50%;margin-top:6px;flex:none;}
+
+/* PHOTO GRID */
+.gallery-cat{margin-bottom:60px;}
+.gallery-cat h3{font-size:19px;margin-bottom:18px;letter-spacing:1px;text-transform:uppercase;}
+.g-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.g-grid .photo{width:100%;height:220px;object-fit:cover;border:1px solid var(--line);}
+@media (max-width:700px){.g-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:480px){.g-grid{grid-template-columns:1fr;}}
+
+/* SPEC TABLE */
+.spec-table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);}
+.spec-table tr{border-bottom:1px solid var(--line);}
+.spec-table tr:last-child{border-bottom:none;}
+.spec-table td{padding:16px 24px;font-size:14.5px;}
+.spec-table td:first-child{color:#7A7A74;width:45%;}
+.spec-table td:last-child{color:var(--black);font-weight:600;}
+
+/* CTA BANNER */
+.cta-banner{background:var(--black);color:var(--white);text-align:center;padding:90px 0;}
+.cta-banner .eyebrow{color:rgba(255,255,255,.6);}
+.cta-banner h2{color:var(--white);letter-spacing:.5px;}
+.cta-banner p{color:rgba(255,255,255,.6);max-width:480px;margin:16px auto 30px;font-size:15px;}
+
+/* FOOTER */
+footer{background:var(--black);color:rgba(255,255,255,.55);padding:50px 0 100px;font-size:13px;border-top:1px solid var(--line-dark);}
+.foot-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;}
+.foot-left b{color:var(--white);font-family:'Cormorant',serif;font-size:16px;font-weight:600;}
+.foot-links{display:flex;gap:22px;font-family:'Raleway',sans-serif;font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;}
+.foot-links a:hover{color:var(--white);}
+.disclaimer{max-width:var(--max);margin:28px auto 0;padding:20px 40px 0;border-top:1px solid rgba(255,255,255,.1);font-size:11px;line-height:1.7;color:rgba(255,255,255,.35);}
+
+/* PAGES */
+.page{display:none;}
+.page.active{display:block;}
+
+.neigh{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:start;}
+.neigh .photo{width:100%;height:520px;object-fit:cover;border:1px solid var(--line);}
+.neigh .copy p{color:#40403C;font-size:15.5px;margin-bottom:18px;}
+@media (max-width:860px){.neigh{grid-template-columns:1fr;gap:36px;}}
+
+/* CONTACT FORM FIX */
+.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:start;}
+.contact-form{display:flex;flex-direction:column;gap:16px;}
+.contact-form input,.contact-form textarea,.contact-form button{width:100%;box-sizing:border-box;}
+@media (max-width:860px){
+  .contact-grid{grid-template-columns:1fr;gap:30px;}
+  .contact-form{gap:14px;}
+}
+@media (max-width:640px){
+  .contact-grid{gap:24px;}
+  .contact-form input,.contact-form textarea{font-size:16px;}
+}
+
+/* MARKET SECTION */
+.market-snapshot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:40px 0;}
+.snapshot-item{background:var(--cream);padding:28px 24px;text-align:center;}
+.snapshot-item .stat-value{font-family:'Cormorant',serif;font-size:28px;font-weight:600;color:var(--black);margin:8px 0;}
+.snapshot-item .stat-label{font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);}
+@media (max-width:560px){.market-snapshot{grid-template-columns:1fr;}}
+
+.comp-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:40px 0;}
+.comp-card{background:var(--white);border:1px solid var(--line);padding:24px;border-radius:3px;}
+.comp-card .address{font-family:'Cormorant',serif;font-size:18px;font-weight:600;color:var(--black);margin-bottom:12px;}
+.comp-card .price{font-size:16px;color:var(--ink);font-weight:600;margin-bottom:2px;}
+.comp-card .sold-date{font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--stone);margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--line);}
+.comp-card .detail{font-size:13px;color:#5C5C58;margin:6px 0;line-height:1.5;}
+@media (max-width:640px){.comp-cards{grid-template-columns:1fr;}}
+
+.comparison-visual{background:var(--cream);border:1px solid var(--line);padding:30px 24px;margin:40px 0;text-align:center;}
+.comparison-visual h3{font-size:16px;margin-bottom:20px;}
+.comp-bars{display:flex;gap:12px;align-items:flex-end;justify-content:center;height:240px;margin:20px 0;}
+.comp-bar{display:flex;flex-direction:column;align-items:center;gap:8px;flex:1;max-width:100px;}
+.bar{width:100%;background:var(--stone-light);border-radius:2px;}
+.bar.subject{background:var(--black);}
+.bar-label{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--stone);text-align:center;word-break:break-word;}
+.bar-price{font-family:'Cormorant',serif;font-size:14px;font-weight:600;color:var(--black);text-align:center;}
+.bar-legend{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--stone);margin-top:16px;padding-top:16px;border-top:1px solid var(--line);}
+
+.data-sources{font-family:'Montserrat',sans-serif;font-size:11px;color:#888;margin-top:40px;padding-top:24px;border-top:1px solid var(--line);line-height:1.6;}
+.data-sources strong{color:#666;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="logo" onclick="showPage('home')">22 Sunrise Ave<span>Ormond-by-the-Sea, FL</span></a>
+    <div class="nav-right">
+      <a href="tel:3055864270" class="nav-phone">(305) 586-4270</a>
+      <a class="nav-contact" onclick="showPage('contact')">Contact</a>
+      <button class="menu-toggle" id="menuBtn" aria-expanded="false"><span class="menu-icon">&#9776;</span> Menu</button>
+    </div>
+  </div>
+  <nav class="dropdown" id="navDropdown">
+    <div class="drop-inner">
+      <a onclick="showPage('about')">About</a>
+      <a onclick="showPage('photos')">Photos</a>
+      <a onclick="showPage('video')">Video</a>
+      <a onclick="showPage('floorplan')">Floorplan</a>
+      <a onclick="showPage('upgrades')">Improvements</a>
+      <a onclick="showPage('beach')">Beach & Area</a>
+      <a onclick="showPage('more')">Details</a>
+    </div>
+  </nav>
+</header>
+
+<div class="floating-contact">
+  <a href="tel:3055864270" class="fc-btn" aria-label="Call Erica"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+  <a href="mailto:EricaGibbRealtor@gmail.com" class="fc-btn" aria-label="Email Erica"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 8.5 6a2 2 0 0 0 3 0L22 7"/></svg></a>
+</div>
+
+<!-- HOME PAGE -->
+<div class="page active" id="home-page">
+  <section class="hero" style="--hero-img:url('images/exterior-dusk-hero.jpg');">
+    <div class="hero-inner">
+      <div class="hero-meta">For Sale · Next Generation Realty of Marion County</div>
+      <h1>22 Sunrise Ave</h1>
+      <div class="hero-loc">Ormond Beach, FL</div>
+      <div class="specs-row">
+        <span><b>2</b>Bed</span>
+        <span><b>2</b>Bath</span>
+        <span class="tag">Bonus Enclosed Sunroom</span>
+        <span><b>1,520</b>Sq Ft</span>
+        <span class="tag">Major Improvements Completed</span>
+        <span><b>8 Homes</b>To No-Drive Beach</span>
+      </div>
+      <div class="hero-cta">
+        <a onclick="showPage('contact')" class="btn btn-solid">Inquire Now</a>
+        <a href="tel:3055864270" class="btn btn-outline">Call · (305) 586-4270</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Explore the Home</div>
+        <h2>Everything You Need to Know</h2>
+        <p>A complete tour of what makes 22 Sunrise Ave an exceptional coastal property.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="card-grid">
+        <a class="card-link" onclick="showPage('about')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/></svg>
+          <h3>About</h3>
+          <p>The complete story of the home — layout, character, and updates already completed.</p>
+          <div class="go">Read More →</div>
+        </a>
+        <a class="card-link" onclick="showPage('photos')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.6"/><path d="M21 15l-5-5-4 4-3-3-6 6"/></svg>
+          <h3>Photos</h3>
+          <p>Every room, every angle — a visual walk through this move-in ready home.</p>
+          <div class="go">View Gallery →</div>
+        </a>
+        <a class="card-link" onclick="showPage('floorplan')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 12h18M11 4v16"/></svg>
+          <h3>Floorplan</h3>
+          <p>How the 1,520 square feet flows — room by room, space by space.</p>
+          <div class="go">See Layout →</div>
+        </a>
+        <a class="card-link" onclick="showPage('upgrades')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <h3>Improvements</h3>
+          <p>New HVAC, electrical, siding, and soffit — the work is already done.</p>
+          <div class="go">See What's New →</div>
+        </a>
+        <a class="card-link" onclick="showPage('beach')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 18c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="12" cy="6" r="2.5"/></svg>
+          <h3>Beach & Area</h3>
+          <p>Living coastal. Just 8 houses to a no-drive beach and thriving village.</p>
+          <div class="go">Explore →</div>
+        </a>
+        <a class="card-link" onclick="showPage('more')">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/></svg>
+          <h3>Details & Facts</h3>
+          <p>Property specifications, location details, and full transparency.</p>
+          <div class="go">Learn More →</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET SECTION -->
+  <section class="first" style="background:var(--cream);">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">We Brought Receipts.</div>
+        <h2>Recent Sales & Market Data</h2>
+        <p>What's been selling in the Ormond-by-the-Sea area, and where 22 Sunrise Ave fits.</p>
+      </div>
+
+      <div style="margin-top:56px;">
+        <h3 style="font-family:'Raleway',sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;color:var(--ink);">Market Snapshot</h3>
+        <div class="market-snapshot">
+          <div class="snapshot-item">
+            <div class="stat-label">Median Sale Price</div>
+            <div class="stat-value" id="medianPrice">$395,000</div>
+          </div>
+          <div class="snapshot-item">
+            <div class="stat-label">Median Price Per SF</div>
+            <div class="stat-value" id="pricePerSf">$311</div>
+          </div>
+          <div class="snapshot-item">
+            <div class="stat-label">Median Days on Market</div>
+            <div class="stat-value" id="medianDays">56</div>
+          </div>
+          <div class="snapshot-item">
+            <div class="stat-label">Sale to List Price</div>
+            <div class="stat-value" id="saleToList">95.6%</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:56px;">
+        <h3 style="font-family:'Raleway',sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;color:var(--ink);">What's Been Selling Nearby</h3>
+        <div class="comp-cards">
+          <div class="comp-card">
+            <div class="address">23 Sunrise Ave</div>
+            <div class="price">Sold: $440,000</div>
+            <div class="sold-date">April 17, 2026</div>
+            <div class="detail">3 Bed | 2 Bath | 1,740 SF</div>
+            <div class="detail">$253/SF · 2-Car Garage</div>
+            <div class="detail" style="margin-top:10px;color:#888;font-size:12px;">Updated kitchen, bathrooms and windows</div>
+          </div>
+          <div class="comp-card">
+            <div class="address">11 Sunrise Ave</div>
+            <div class="price">Sold: $505,000</div>
+            <div class="sold-date">May 7, 2026</div>
+            <div class="detail">3 Bed | 2 Bath | 1,712 SF</div>
+            <div class="detail">2-Car Garage · Pool</div>
+            <div class="detail" style="margin-top:10px;color:#888;font-size:12px;">Roof 2024 · Septic 2022 · Electrical/plumbing improvements</div>
+          </div>
+          <div class="comp-card">
+            <div class="address">15 Longfellow Circle</div>
+            <div class="price">Sold: $435,000</div>
+            <div class="sold-date">May 1, 2026</div>
+            <div class="detail">3 Bed | 2 Bath | 1,503 SF</div>
+            <div class="detail">$289/SF · 2-Car Garage · Pool</div>
+            <div class="detail" style="margin-top:10px;color:#888;font-size:12px;">Updated with newer roof</div>
+          </div>
+          <div class="comp-card">
+            <div class="address">4 Dolphin Ave</div>
+            <div class="price">Sold: $469,000</div>
+            <div class="sold-date">June 11, 2026</div>
+            <div class="detail">3 Bed | 2 Bath | 1,960 SF</div>
+            <div class="detail">$239/SF · 2-Car Garage</div>
+            <div class="detail" style="margin-top:10px;color:#888;font-size:12px;">Roof 2024 · Electrical 2025</div>
+          </div>
+          <div class="comp-card">
+            <div class="address">30 Longfellow Circle</div>
+            <div class="price">Sold: $350,000</div>
+            <div class="sold-date">May 28, 2026</div>
+            <div class="detail">2 Bed | 2 Bath | 1,500 SF</div>
+            <div class="detail">• • •</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:56px;">
+        <h3 style="font-family:'Raleway',sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;color:var(--ink);">Where 22 Sunrise Fits</h3>
+        <div class="comparison-visual">
+          <div style="margin-bottom:24px;">
+            <div style="font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);margin-bottom:6px;">Asking Price vs. Recent Sales</div>
+            <div style="font-family:'Cormorant',serif;font-size:22px;font-weight:600;color:var(--black);">$389,900</div>
+          </div>
+          <div class="comp-bars" id="comparisonBars">
+            <!-- Bars generated by JavaScript -->
+          </div>
+          <div class="bar-legend">
+            <span style="color:var(--black);font-weight:600;">■</span> 22 Sunrise Ave (List Price) &nbsp;&nbsp;&nbsp;
+            <span style="color:var(--stone-light);">■</span> Recent Sales (Sold Prices)
+          </div>
+        </div>
+        <div class="data-sources">
+          <strong>Data Sources & Notes:</strong><br>
+          Market data is preliminary and based on available MLS information as of September 2026. Final data will be verified with Stellar MLS before property launch. Comparable sales represent closed transactions within Ormond-by-the-Sea. Price per square foot calculations based on reported living area. All information is subject to verification.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Ready to Move Forward?</div>
+    <h2>Schedule a Showing</h2>
+    <p>22 Sunrise Ave is waiting to become your coastal home. Reach out to arrange a private viewing.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Contact Erica</a>
+  </section>
+</div>
+
+<!-- ABOUT PAGE -->
+<div class="page" id="about-page">
+  <section class="page-hero" style="--hero-img:url('https://drive.google.com/uc?id=1rS5tFixweH09eOS3rhm0uZM2vL8aK8zl');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">About This Home</div>
+    <h1>A Rare Combination on This Stretch of Coast</h1>
+    <p>Recent improvements, genuine character, and authentic proximity to the water.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap two-col">
+      <img class="photo" src="https://drive.google.com/uc?id=1rS5tFixweH09eOS3rhm0uZM2vL8aK8zl" alt="Ocean view from 22 Sunrise Ave">
+      <div class="copy">
+        <div class="eyebrow">The Essence</div>
+        <h2>Thoughtfully Maintained, Ready to Move In</h2>
+        <div class="divider left"></div>
+        <p>This solid block home delivers the specific improvements today's buyers seek and often cannot find ready-made: a new HVAC system installed in 2026, updated electrical panel and wiring with new service riser, new soffit and fascia completed in 2025, and new siding on the east exposure installed in 2026. The exterior has been professionally power-washed, and the seller is including extra matching roof tiles, siding materials, and touch-up paint for future maintenance.</p>
+        <p>Inside, 1,520 square feet of thoughtfully arranged space includes a bright living room and a separate bonus living area—genuine square footage for everyone to spread out. Beautiful terrazzo flooring runs throughout the bedrooms and primary living spaces, and the efficient galley kitchen combines authentic period character with honest functionality.</p>
+        <p>The primary suite features a spacious walk-in cedar closet and private en-suite bathroom. A generously proportioned hallway bathroom serves the guest bedrooms. The enclosed Florida room—freshly repainted and filled with light—is where mornings and quiet afternoons naturally happen. Locals call this stretch of coast "the island," and once you're here, you'll understand why.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap two-col">
+      <div class="copy">
+        <div class="eyebrow">The Outdoor Space</div>
+        <h2>Room to Live Beyond the Walls</h2>
+        <div class="divider left"></div>
+        <p>The fully fenced backyard is expansive enough for a pool or any creative outdoor vision you hold. An irrigation well on the property means lawn maintenance stays simple and worry-free. Whether it's your morning coffee in the Florida room or an evening under the sky, the setting remains quiet—just birdsong and the peaceful rhythms of island living.</p>
+        <ul class="dot-list">
+          <li>Fully fenced backyard, spacious enough for a pool</li>
+          <li>Irrigation well installed for simplified lawn care</li>
+          <li>Enclosed, recently repainted Florida room</li>
+          <li>Just 8 homes from the public no-drive beach access</li>
+          <li>Built on solid block foundation (1966)</li>
+          <li>No homeowners association fees</li>
+        </ul>
+      </div>
+      <img class="photo" src="https://drive.google.com/uc?id=12dfT64yx1GjLzz-dQN7FcaKuk5jNYpRu" alt="Exterior front of 22 Sunrise Ave">
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Ready to Explore?</div>
+    <h2>See 22 Sunrise Ave in Person</h2>
+    <p>There's a difference between reading about a home and walking through it. Schedule your showing today.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Request a Showing</a>
+  </section>
+</div>
+
+<!-- PHOTOS PAGE -->
+<div class="page" id="photos-page">
+  <section class="page-hero" style="--hero-img:url('images/living-room-furnished.jpg');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">Gallery</div>
+    <h1>Photo Tour</h1>
+    <p>Every room, every angle. See what 22 Sunrise Ave has to offer.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="gallery-cat">
+        <h3>Living Spaces</h3>
+        <div class="g-grid">
+          <img class="photo" src="https://drive.google.com/uc?id=1hrXxOx2x-OHZdNQfXSTFZA76TWbrSoir" alt="Living room">
+          <img class="photo" src="https://drive.google.com/uc?id=1flgzAC1JhlEHYdNtPjRKxScK1YWGADPi" alt="Living room detail">
+          <img class="photo" src="https://drive.google.com/uc?id=1cIVkUJ5PRULQruSjXKm3G3VMcYrbKjgY" alt="Dining room">
+          <img class="photo" src="https://drive.google.com/uc?id=1nIKPu6-OwbSxIHJ-3MefyWHAphvR-VRI" alt="Family room">
+          <img class="photo" src="https://drive.google.com/uc?id=1wpwgtGhOKg1mkiiYBSOqO1GDYdm37bsU" alt="Family room detail">
+        </div>
+      </div>
+      <div class="gallery-cat">
+        <h3>Kitchen & Dining</h3>
+        <div class="g-grid">
+          <img class="photo" src="images/kitchen-galley-view.jpg" alt="Kitchen">
+          <img class="photo" src="images/kitchen-dinette.jpg" alt="Dinette">
+          <img class="photo" src="images/kitchen-sink-cabinets.jpg" alt="Sink">
+        </div>
+      </div>
+      <div class="gallery-cat">
+        <h3>Sunroom & Outdoor Living</h3>
+        <div class="g-grid">
+          <img class="photo" src="https://drive.google.com/uc?id=1T-TtXQeSQ35wz5WnUWMrBrvnImS4SnJV" alt="Sunroom">
+          <img class="photo" src="https://drive.google.com/uc?id=1eCbGcKp4BuxN8y63DUUcalDt7VGG4GGw" alt="Outdoor living">
+          <img class="photo" src="https://drive.google.com/uc?id=1prwrn9llJCQqI_jQfDNiEZx73ZqifR9I" alt="Outdoor space">
+        </div>
+      </div>
+      <div class="gallery-cat">
+        <h3>No Drive Beach</h3>
+        <div class="g-grid">
+          <img class="photo" src="images/beach-view-1.jpg" alt="Beach 1">
+          <img class="photo" src="images/beach-view-2.jpg" alt="Beach 2">
+          <img class="photo" src="images/beach-boardwalk-steps.jpg" alt="Boardwalk">
+        </div>
+      </div>
+      <div class="gallery-cat">
+        <h3>Exterior & Aerial</h3>
+        <div class="g-grid">
+          <img class="photo" src="images/exterior-dusk-hero.jpg" alt="Exterior dusk">
+          <img class="photo" src="images/exterior-aerial.jpg" alt="Aerial">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Ready to See It Live?</div>
+    <h2>Schedule Your Showing</h2>
+    <p>Photos tell part of the story. Experience 22 Sunrise Ave in person.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Contact Erica</a>
+  </section>
+</div>
+
+<!-- VIDEO PAGE -->
+<div class="page" id="video-page">
+  <section class="page-hero" style="--hero-img:url('images/exterior-dusk-hero.jpg');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">Media</div>
+    <h1>Video Tour</h1>
+    <p>Coming soon — Video of 22 Sunrise Ave.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Virtual Tour</div>
+        <h2>More Than Photos</h2>
+        <p>Video Tour coming soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Let's Connect</div>
+    <h2>Ready to Schedule?</h2>
+    <p>Contact Erica to arrange a showing or discuss the property in detail.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Get in Touch</a>
+  </section>
+</div>
+
+<!-- FLOORPLAN PAGE -->
+<div class="page" id="floorplan-page">
+  <section class="page-hero" style="--hero-img:url('images/living-room-furnished.jpg');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">Layout</div>
+    <h1>How the Space Flows</h1>
+    <p>1,520 square feet organized for living, not just existing.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Floorplan Overview</div>
+        <h2>1,520 Square Feet</h2>
+        <p>DETAILED FLOORPLAN COMING SOON</p>
+      </div>
+    </div>
+
+    <div class="wrap" style="display:flex;justify-content:center;">
+      <img class="photo" src="https://drive.google.com/uc?id=1ZYeazJmbdq0bNkJyzkVSuxqROKk5V7qB" alt="Floorplan" style="height:420px;border:none;max-width:600px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:1px;">
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Primary Bedroom</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">With walk-in closet & ensuite</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Guest Bedroom</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Well-proportioned</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Living Room</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Bright and spacious</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Bonus Living Area</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Separate flex space</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Kitchen</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Galley with character</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">2 Full Bathrooms</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Primary ensuite + guest</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">Florida Room</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Enclosed outdoor living</div>
+        </div>
+        <div style="background:var(--cream);padding:22px 28px;">
+          <div style="font-family:'Cormorant',serif;font-size:17px;color:var(--black);font-weight:600;">2-Car Garage</div>
+          <div style="font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--stone);">Covered storage</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Want to Walk It?</div>
+    <h2>Experience the Layout in Person</h2>
+    <p>Floorplans tell part of the story. Walking through shows how it really feels.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Schedule a Showing</a>
+  </section>
+</div>
+
+<!-- UPGRADES PAGE -->
+<div class="page" id="upgrades-page">
+  <section class="page-hero" style="--hero-img:url('images/exterior-dusk-hero.jpg');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">Recent Improvements</div>
+    <h1>Major Systems & Exterior Upgrades</h1>
+    <p>Smart investments already completed. This home is ready for its next chapter.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">What's New</div>
+        <h2>Completed Upgrades at a Glance</h2>
+        <p>The major work that matters most to today's buyers is already finished.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 9h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><path d="M3 9V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"/></svg>
+          <h3>HVAC System (2026)</h3>
+          <p>Complete new air conditioning and heating system installed for reliable climate control.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M3 6V4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"/></svg>
+          <h3>Electrical Upgrade (2026)</h3>
+          <p>Updated electrical panel with new service riser and modern wiring throughout.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 9h18v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><path d="M3 9V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"/></svg>
+          <h3>Soffit & Fascia (2025)</h3>
+          <p>New soffit, fascia, and trim installed. Protection and appearance for years to come.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Exterior Maintenance</div>
+        <h2>Beyond the Big Projects</h2>
+        <p>Attention to detail matters. The seller has prepared this home with care.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 9h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><path d="M3 9V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"/></svg>
+          <h3>New Siding</h3>
+          <p>East elevation siding installed in 2026. Protects and refreshes the exterior.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M9 9v6M15 9v6"/></svg>
+          <h3>Professional Cleaning</h3>
+          <p>Entire exterior power-washed to original condition. Every surface presents well.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l4 6h6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8h6l4-6z"/></svg>
+          <h3>Roof & Materials</h3>
+          <p>Seller providing extra matching roof tiles, siding panels, and touch-up paint.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Ready to See the Results?</div>
+    <h2>Schedule Your Tour</h2>
+    <p>Walk through and see firsthand how these improvements have prepared 22 Sunrise Ave.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Contact Erica</a>
+  </section>
+</div>
+
+<!-- BEACH PAGE -->
+<div class="page" id="beach-page">
+  <section class="page-hero" style="--hero-img:url('images/beach-view-2.jpg');">
+    <div class="page-hero-inner">
+    <div class="eyebrow">Living Coastal</div>
+    <h1>Ormond-by-the-Sea & Beyond</h1>
+    <p>Eight homes from a no-drive beach. Quiet, established, genuinely local.</p>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap neigh">
+      <img class="photo" src="images/beach-view-1.jpg" alt="Beach">
+      <div class="copy">
+        <div class="eyebrow">The Beach</div>
+        <h2>No-Drive Beach Access</h2>
+        <div class="divider left"></div>
+        <p>Just eight homes separate 22 Sunrise Ave from the beach. This is a genuine no-drive area, meaning no commercial parking lots, no boardwalks lined with shops. You walk across sand on your own property and find the Atlantic Ocean exactly as it's been for centuries.</p>
+        <p>The sand here is natural and wide, the crowd is genuine beachgoers rather than tourist traffic, and the sound you hear most is the rhythm of waves. This isn't a destination for tourism—it's a home for living.</p>
+        <ul class="dot-list">
+          <li>No-drive beach, 8 homes from your door</li>
+          <li>Quiet, natural sand beaches</li>
+          <li>Sea turtle nesting habitat in season</li>
+          <li>Walking and biking distance to everything</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Neighborhood Character</div>
+        <h2>Why This Place Feels Different</h2>
+        <p>Ormond-by-the-Sea represents an older, quieter approach to Florida coastal living.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 12h18M12 3v18M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9-9-4.03-9-9z"/></svg>
+          <h3>Established Community</h3>
+          <p>Neighbors have lived here for decades. A place where people choose to stay.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 12h10M7 18h10M7 6h10M3 12h2M3 6h2M3 18h2M19 12h2M19 6h2M19 18h2"/></svg>
+          <h3>Tree-Lined Streets</h3>
+          <p>Live oaks and native palms create natural shade and a slower pace.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <h3>Low Pressure Living</h3>
+          <p>No HOA. No gated entries. Just people living their lives at the coast.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Experience It Yourself</div>
+    <h2>See 22 Sunrise Ave in Context</h2>
+    <p>Understanding the neighborhood means understanding why this location is special.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Schedule a Showing</a>
+  </section>
+</div>
+
+<!-- MORE PAGE -->
+<div class="page" id="more-page">
+  <section class="page-hero" style="background:var(--cream);padding:60px 0;display:flex;align-items:center;justify-content:center;">
+    <div style="width:100%;max-width:1240px;margin:0 auto;padding:0 40px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-bottom:60px;">
+        <img src="https://drive.google.com/uc?id=15fz6wCYte-tj5kzIQs2mhxyWo6RkSAIU" alt="Kitchen" style="width:100%;height:280px;object-fit:cover;border:1px solid var(--line);">
+        <img src="https://drive.google.com/uc?id=1flgzAC1JhlEHYdNtPjRKxScK1YWGADPi" alt="Living Room" style="width:100%;height:280px;object-fit:cover;border:1px solid var(--line);">
+        <img src="https://drive.google.com/uc?id=12_dfL5GR1sFf66q8R6ioYUH-K7Fq7eEF" alt="Bedroom" style="width:100%;height:280px;object-fit:cover;border:1px solid var(--line);">
+      </div>
+      <div class="page-hero-inner" style="text-align:center;">
+        <div class="eyebrow">Full Details</div>
+        <h1>Property Facts & Specifications</h1>
+        <p>Complete transparency about 22 Sunrise Ave.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="first">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">The Numbers</div>
+        <h2>Property Specifications</h2>
+        <p>Here's what you're looking at—straightforward facts about the property.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <table class="spec-table">
+        <tr><td>Address</td><td>22 Sunrise Avenue, Ormond Beach, FL 32176</td></tr>
+        <tr><td>Property Type</td><td>Single-Family Home</td></tr>
+        <tr><td>Year Built</td><td>1966</td></tr>
+        <tr><td>Living Area</td><td>1,520 square feet</td></tr>
+        <tr><td>Bedrooms</td><td>2</td></tr>
+        <tr><td>Bathrooms</td><td>2</td></tr>
+        <tr><td>Bonus Room</td><td>Enclosed Florida Room (sunroom)</td></tr>
+        <tr><td>Garage</td><td>2-car garage</td></tr>
+        <tr><td>Foundation</td><td>Solid block</td></tr>
+        <tr><td>Roof</td><td>Tile roof</td></tr>
+        <tr><td>Flooring</td><td>Terrazzo, tile, and wood</td></tr>
+        <tr><td>HOA/Community Fees</td><td>None</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Sustainability & Efficiency</div>
+        <h2>Green Considerations</h2>
+        <p>What the home offers from an environmental perspective.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          <h3>New HVAC System</h3>
+          <p>2026 installation means modern efficiency standards and warranty coverage.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <h3>Irrigation Well</h3>
+          <p>Onsite well for landscape irrigation. Reduces municipal water dependence.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M3 15h18"/></svg>
+          <h3>Updated Electrical</h3>
+          <p>Modern panel and wiring accommodates today's power needs with safety.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Full Transparency</div>
+        <h2>What You Should Know</h2>
+        <p>We believe in honest communication about property conditions.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+          <h3>Age of Home</h3>
+          <p>Built in 1966, the home offers solid block construction and established character. Recent improvements address major systems.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 4h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4z"/><path d="M2 20h20"/></svg>
+          <h3>Condition & Updates</h3>
+          <p>Major systems have been recently upgraded. This is a solid home ready for occupancy.</p>
+        </div>
+        <div class="feat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <h3>Location Considerations</h3>
+          <p>Coastal location means exposure to salt air and ocean weather patterns. Insurance is essential.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Let's Connect</div>
+    <h2>Questions? Contact Erica</h2>
+    <p>The best information comes from direct conversation. Reach out anytime.</p>
+    <a onclick="showPage('contact')" class="btn btn-solid">Get in Touch</a>
+  </section>
+</div>
+
+<!-- CONTACT PAGE -->
+<div class="page" id="contact-page">
+  <section style="background:var(--black);color:var(--white);padding:90px 0;">
+    <div class="wrap">
+      <div class="section-head" style="color:var(--white);">
+        <div class="eyebrow" style="color:rgba(255,255,255,.6);">Get in Touch</div>
+        <h2 style="color:var(--white);">Questions About 22 Sunrise Ave?</h2>
+      </div>
+      <p style="color:rgba(255,255,255,.6);max-width:520px;text-align:center;margin:0 auto 40px;font-size:15.5px;">The best information comes from direct conversation. Erica is here to answer any question about the property, the neighborhood, or what comes next.</p>
+
+      <div class="contact-grid" style="color:var(--white);">
+        <div>
+          <div style="display:flex;gap:18px;align-items:center;margin-bottom:26px;">
+            <div style="width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.1);flex:none;"></div>
+            <div>
+              <div style="font-family:'Cormorant',serif;font-size:19px;font-weight:600;color:var(--white);">Erica Gibb</div>
+              <div style="font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-top:3px;">Realtor® · Florida License</div>
+              <div style="display:flex;flex-direction:column;gap:10px;font-size:14.5px;color:rgba(255,255,255,.8);margin-top:8px;">
+                <a href="tel:3055864270" style="color:rgba(255,255,255,.8);">(305) 586-4270</a>
+                <a href="mailto:EricaGibbRealtor@gmail.com" style="color:rgba(255,255,255,.8);">EricaGibbRealtor@gmail.com</a>
+                <a href="https://instagram.com/EricaGibbOfficial" style="color:rgba(255,255,255,.8);">@EricaGibbOfficial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label style="font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:7px;display:block;">Your Name *</label>
+          <input type="text" placeholder="Name" required style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.2);color:var(--white);padding:13px 14px;font-family:'Montserrat',sans-serif;font-size:14.5px;box-sizing:border-box;">
+
+          <label style="font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:7px;display:block;">Email Address *</label>
+          <input type="email" placeholder="Email" required style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.2);color:var(--white);padding:13px 14px;font-family:'Montserrat',sans-serif;font-size:14.5px;box-sizing:border-box;">
+
+          <label style="font-family:'Raleway',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:7px;display:block;">Message *</label>
+          <textarea placeholder="Tell Erica what you'd like to know..." required style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.2);color:var(--white);padding:13px 14px;font-family:'Montserrat',sans-serif;font-size:14.5px;min-height:110px;resize:vertical;box-sizing:border-box;"></textarea>
+
+          <button type="submit" class="btn btn-solid" style="align-self:flex-start;margin-top:8px;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="eyebrow">Next Steps</div>
+    <h2>How to Move Forward</h2>
+    <p>Whether you're ready to schedule a showing or just exploring, we're here to help.</p>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="foot-left"><b>22 Sunrise Ave</b> · Ormond-by-the-Sea, FL</div>
+    <div class="foot-links">
+      <a href="tel:3055864270">(305) 586-4270</a>
+      <a href="mailto:EricaGibbRealtor@gmail.com">Email</a>
+      <a href="https://instagram.com/EricaGibbOfficial">Instagram</a>
+    </div>
+  </div>
+  <div class="disclaimer wrap">
+    Listed by Erica Gibb, Realtor® · Next Generation Realty of Marion County. All information contained herein is deemed reliable but not guaranteed. Buyers and their agent are responsible for all due diligence. © 2026 Next Generation Realty of Marion County.
+  </div>
+</footer>
+
+<script>
+// EDITABLE MARKET DATA - Update these values before launch
+const MARKET_DATA = {
+  medianPrice: '$395,000',
+  pricePerSf: '$311',
+  medianDays: '56',
+  saleToList: '95.6%',
+  comparables: [
+    { address: '23 Sunrise Ave', price: 440000, list: 'Sold' },
+    { address: '11 Sunrise Ave', price: 505000, list: 'Sold' },
+    { address: '15 Longfellow Circle', price: 435000, list: 'Sold' },
+    { address: '4 Dolphin Ave', price: 469000, list: 'Sold' },
+    { address: '30 Longfellow Circle', price: 350000, list: 'Sold' }
+  ],
+  subjectPrice: 389900
+};
+
+// Initialize market data on page load
+window.addEventListener('DOMContentLoaded', function() {
+  // Update market snapshot
+  document.getElementById('medianPrice').textContent = MARKET_DATA.medianPrice;
+  document.getElementById('pricePerSf').textContent = MARKET_DATA.pricePerSf;
+  document.getElementById('medianDays').textContent = MARKET_DATA.medianDays;
+  document.getElementById('saleToList').textContent = MARKET_DATA.saleToList;
+  
+  // Generate comparison bars
+  generateComparisonChart();
+});
+
+function generateComparisonChart() {
+  const container = document.getElementById('comparisonBars');
+  const maxPrice = Math.max(...MARKET_DATA.comparables.map(c => c.price), MARKET_DATA.subjectPrice);
+  const scale = 200 / maxPrice; // Scale bars to max 200px height
+  
+  // Create subject property bar
+  const subjectHeight = MARKET_DATA.subjectPrice * scale;
+  const subjectBar = document.createElement('div');
+  subjectBar.className = 'comp-bar';
+  subjectBar.innerHTML = `
+    <div class="bar subject" style="height:${subjectHeight}px;"></div>
+    <div class="bar-price">$${(MARKET_DATA.subjectPrice/1000).toFixed(0)}K</div>
+    <div class="bar-label">22 Sunrise<br>(Ask)</div>
+  `;
+  container.appendChild(subjectBar);
+  
+  // Create comparable bars
+  MARKET_DATA.comparables.forEach((comp, i) => {
+    const height = comp.price * scale;
+    const bar = document.createElement('div');
+    bar.className = 'comp-bar';
+    bar.innerHTML = `
+      <div class="bar" style="height:${height}px;"></div>
+      <div class="bar-price">$${(comp.price/1000).toFixed(0)}K</div>
+      <div class="bar-label">${comp.address.split(' ')[0]} ${i < 2 ? 'Sunrise' : 'Longfellow'}</div>
+    `;
+    container.appendChild(bar);
+  });
+}
+
+function showPage(pageName) {
+  const pages = document.querySelectorAll('.page');
+  pages.forEach(p => p.classList.remove('active'));
+  const targetPage = document.getElementById(pageName + '-page');
+  if(targetPage) targetPage.classList.add('active');
+  
+  const nav = document.getElementById('navDropdown');
+  if(nav) nav.classList.remove('open');
+  document.getElementById('menuBtn').setAttribute('aria-expanded', 'false');
+  
+  window.scrollTo(0, 0);
+}
+
+document.getElementById('menuBtn').addEventListener('click', function() {
+  const nav = document.getElementById('navDropdown');
+  const isOpen = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
+
+document.querySelectorAll('nav.dropdown a').forEach(link => {
+  link.addEventListener('click', function() {
+    const nav = document.getElementById('navDropdown');
+    nav.classList.remove('open');
+    document.getElementById('menuBtn').setAttribute('aria-expanded', 'false');
+  });
+});
+</script>
+</body>
+</html>
